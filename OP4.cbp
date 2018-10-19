@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="OP4" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/OP4" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-audio-d" />
+					<Add library="sfml-network-d" />
+					<Add library="sfml-system-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/OP4" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-audio" />
+					<Add library="sfml-network" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++14" />
+			<Add option="-fexceptions" />
+			<Add directory="B:/Desktop/SFML-2.4.2/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="B:/Desktop/SFML-2.4.2/lib" />
+		</Linker>
+		<Unit filename="GameManager.cpp" />
+		<Unit filename="GameManager.hpp" />
+		<Unit filename="StateManager.cpp" />
+		<Unit filename="StateManager.hpp" />
+		<Unit filename="case.cpp" />
+		<Unit filename="case.hpp" />
+		<Unit filename="cursor.cpp" />
+		<Unit filename="cursor.hpp" />
+		<Unit filename="defining.hpp" />
+		<Unit filename="event.cpp" />
+		<Unit filename="event.hpp" />
+		<Unit filename="grid.cpp" />
+		<Unit filename="grid.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="menu.cpp" />
+		<Unit filename="menu.hpp" />
+		<Unit filename="menucursor.cpp" />
+		<Unit filename="menucursor.hpp" />
+		<Unit filename="menuview.cpp" />
+		<Unit filename="menuview.hpp" />
+		<Unit filename="mouseSelection.cpp" />
+		<Unit filename="mouseSelection.hpp" />
+		<Unit filename="puissance.cpp" />
+		<Unit filename="puissance.hpp" />
+		<Unit filename="settings.cpp" />
+		<Unit filename="settings.hpp" />
+		<Unit filename="settingsmatch.cpp" />
+		<Unit filename="settingsmatch.hpp" />
+		<Unit filename="settingsmatchview.cpp" />
+		<Unit filename="settingsmatchview.hpp" />
+		<Unit filename="settingsview.cpp" />
+		<Unit filename="settingsview.hpp" />
+		<Unit filename="sologameview.cpp" />
+		<Unit filename="sologameview.hpp" />
+		<Unit filename="timecheck.cpp" />
+		<Unit filename="timecheck.hpp" />
+		<Unit filename="turn.cpp" />
+		<Unit filename="turn.hpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project output_language="French" />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
