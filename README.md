@@ -4,10 +4,10 @@ My video games who are in developpement actually
 For the moment it's a little messy but i'm working about it
 
 My video game is a Puissance 4 with "events"
-  _"But what are events Sami2EaCOS ?"
-  _"Events are somes spicy things to make the game more interessants"
-  _"Like DLC to take all my money ?"
-  _"NOT LIKE THAT !!!"
+  _"But what are events Sami2EaCOS ?"_
+  _"Events are somes spicy things to make the game more interessants"_
+  _"Like DLC to take all my money ?"_
+  _"NOT LIKE THAT !!!"_
 
 For the moments I have 3 events:
   - Tetris :
